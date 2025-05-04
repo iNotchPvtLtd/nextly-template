@@ -10,8 +10,8 @@ const nextConfig = {
       ]
     },
     assetPrefix: process.env.NODE_ENV === 'production' 
-      ? 'https://imakesite.s3.eu-north-1.amazonaws.com/templates/cake' 
-      : '/templates/cake',
+      ? 'https://imakesite.s3.eu-north-1.amazonaws.com/templates/nextly' 
+      : '/templates/nextly',
     trailingSlash: true,
     basePath: '',
     env: {
