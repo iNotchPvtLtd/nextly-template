@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
+import logoicon from "../../public/img/logo.png";
+import vercelicon from "../../public/img/vercel.svg";
 
 export function Footer() {
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
@@ -18,7 +20,7 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src={logoicon}
                   alt="N"
                   width="32"
                   height="32"
@@ -42,8 +44,8 @@ export function Footer() {
                 className="relative block w-44"
               >
                 <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
+                  src={vercelicon}
+                  alt="Powered by iNotchTemplates"
                   width="212"
                   height="44"
                 />
@@ -115,7 +117,7 @@ export function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Web3Templates.
+            iNotchTemplates.
           </a>{" "}
           Illustrations from{" "}
           <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
@@ -179,7 +181,7 @@ const Linkedin = ({ size = 24 }) => (
 const Backlink = () => {
   return (
     <a
-      href="https://web3templates.com"
+      href="https://inotchglobal.com"
       target="_blank"
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
@@ -199,7 +201,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
+      <span>iNotchTemplates</span>
     </a>
   );
 };

@@ -280,7 +280,7 @@ export function PopupWidget() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Web3Forms
+                            iNotch Web3Forms
                           </a>
                         </span>
                       </p>
